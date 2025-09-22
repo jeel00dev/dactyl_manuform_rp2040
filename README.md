@@ -165,7 +165,6 @@ Check the `photos/` folder for:
 
 - Project: QMK Firmware
 - Repository: https://github.com/qmk/qmk_firmware
-- Built by: **jeel00dev**
 - If you use this as a base for your own project, please give a link back, I’d love to see what you build.
 
 ---
