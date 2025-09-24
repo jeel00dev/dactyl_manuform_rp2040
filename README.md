@@ -13,7 +13,7 @@ This README shows how to use the repo, install dependencies, build the QMK firmw
 
 ---
 
-## 📁 Repo structure
+## Repo structure
 
 ```
 
@@ -28,7 +28,7 @@ my\_keyboard/
 
 ---
 
-## ✨ Project highlights
+## Project highlights
 
 - **Microcontroller:** RP2040 Zero
 - **Layout:** 5x6_5 handwired (rows × columns with thumb keys)
@@ -37,7 +37,7 @@ my\_keyboard/
 
 ---
 
-## 🧰 Requirements & Dependencies
+## Requirements & Dependencies
 
 This project requires Python 3 and the QMK toolchain (via the `qmk` Python package) plus a few helper packages. I included a `requirements.txt` with the exact packages used for development.
 
@@ -85,7 +85,7 @@ types-colorama==0.4.15.20250801
 
 ---
 
-## 🔨 How to flash the RP2040 Zero
+## How to flash the RP2040 Zero
 
 There are two common ways to flash RP2040 boards:
 
@@ -124,7 +124,7 @@ RP2040-based boards often support flashing via a UF2 file:
 
 ---
 
-## 📸 Photos & wiring / soldering reference
+## Photos & wiring / soldering reference
 
 Check the `photos/` folder for:
 
@@ -136,14 +136,14 @@ Check the `photos/` folder for:
 
 ---
 
-## 🧩 Customization & editing the keymap
+## Customization & editing the keymap
 
 - To change key assignments, edit `qmk_firmware/keyboards/handwired/dactyl_manuform/5x6_5/keymaps/jeel00dev/keymaps.json` in that keymap folder.
 - After editing, re-run `qmk compile` (or `qmk flash`) to build the updated firmware.
 
 ---
 
-## 🐞 Troubleshooting
+## Troubleshooting
 
 - **Board not detected in bootloader mode:** Ensure you press/hold the BOOTSEL button **before** plugging the board in. Try a different cable or USB port.
 - **Compile errors:** Make sure you copied the keyboard/keymap files into a compatible `qmk_firmware` version.
@@ -152,7 +152,7 @@ Check the `photos/` folder for:
 
 ---
 
-## 🔁 How I use this repo
+## How I use this repo
 
 1. Clone this repo.
 2. `pip install --user -r requirements.txt`
@@ -161,7 +161,7 @@ Check the `photos/` folder for:
 
 ---
 
-## 📄 License & credits
+## License & credits
 
 - Project: QMK Firmware
 - Repository: https://github.com/qmk/qmk_firmware
@@ -169,7 +169,7 @@ Check the `photos/` folder for:
 
 ---
 
-## 📬 Questions / Issues
+## Questions / Issues
 
 If you find problems or want to suggest improvements, open an issue on this repo or contact me via GitHub.
 
